@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Card - RICK AND MORTY</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-logo">
+            <figure>
+                <img src="" alt="">
+            </figure>
+        </div>
+
+        <nav class="cabecalho-menu">
+            <ul>
+                <li><a href=""></a>Home</li>
+                <li><a href=""></a>Our Shop</li>
+                <li><a href=""></a>Product Detail</li>
+                <li><a href=""></a>Contact Us</li>
+                <li class="sign"><a href="./formulario.html" id="signin-btn">SIGN IN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <div class="principal-container">
+            <div class="principal-conteudo">
+                <div class="principal-texto">
+                    <h3>BEM-VINDO AO COLECIONAMENTI</h3>
+                    <h2>O MELHOR SITE DE VENDAS DE CARD!</h2>
+                    <p>
+                    O Colecionamenti é o melhor site para colecionadores de figurinhas com um preço bacana!!!
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <section class="container">
+        <div class="card-container">
+            <div class="card">
+                <img src="./img/Rick-and-Morty-Pickle-Rick-capa.jpg">
+                 <div>
+                   <h1>Rick Pickle</h1>
+                  <h2>Figurinhas colecionaveis</h2>
+                 <span>R$ 90,25</span>
+                 <button>Compre</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="./img/rick-morty.jpg ">
+    <div>
+      <h1>Rick and Morty</h1>
+      <h2>Figurinhas colecionaveis</h2>
+      <span>R$ 80,25</span>
+      <button>Compre</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="./img/rick_and_morty_s4_image.jpg ">
+    <div>
+      <h1>Rick</h1>
+      <h2>Figurinhas colecionaveis</h2>
+      <span>R$ 62,80</span>
+      <button>Compre</button>
+    </div>
+  </div>
+
+  <div class="container-characters"></div>
+
+  <!-- Template do card de personagem -->
+  <template id="character-card-template">
+    <div class="card-character">
+      <img class="character-img" data-id="">
+      <h3 class="character-name"></h3>
+      <p class="character-status"></p>
+      <p class="character-species"></p>
+    </div>
+  </template>
+
+
+  <script src="./rick-and-morty-api.js"></script>
+
+  </section>
+  
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/formulario.css" />
+    <title>Subscribe</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a href="index.html">
+                <img src="./img/png-transparent-rick-and-morty-illustratrion-rick-sanchez-morty-smith-rick-and-morty-season-1-television-show-youtube-rick-and-morty-television-logo-computer-wallpaper.png" class="menu-logo" alt="VOLTAR" />
+            </a>
+
+        </nav>
+    </header>
+ 
+    <main>
+
+        <form action="https://formsubmit.co/nickolasmendes17@gmail.com" method="post">
+            <div class="form-item">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required />
+            </div>
+            <div class="form-item">
+                <label for="telefone">Telefone: </label>
+                <input type="number" name="telefone" id="telefone" placeholder="Digite o seu telefone" required />
+            </div>
+            <div class="form-item">
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" />
+            </div>
+
+
+            <div class="form-botoes">
+                <input type="reset" value="Limpar" />
+                <input type="submit" value="Enviar" />
+            </div>
+        </form>
+    </main>
+
+    <script src="./js/formulario.js"></script>
+</body>
+
+</html>

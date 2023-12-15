@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Poppins:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #252527;
+    color: rgb(255, 255, 255);
+}
+
+.cabecalho {
+    background-color: #242424;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-logo figure img {
+    max-width: 100px;
+    height: auto;
+}
+
+.cabecalho-menu ul {
+    list-style-type: none;
+}
+
+.cabecalho-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.cabecalho-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Adicionando estilização para o botão SIGN IN */
+.cabecalho-menu ul li.sign a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+.cabecalho-menu ul li.sign a:hover {
+    color: rgb(21, 255, 0); 
+}
+
+.principal {
+    text-align: center;
+    padding: 280px 0;
+    background-image: url(./img/wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.principal h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.principal p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 100%;
+    background-color: rgb(71, 209, 59);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.card span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(34, 88, 50);
+    color: white;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: rgb(69, 173, 101);
+}
+
+.container-characters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card-character {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .card-character img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+  }
+  
